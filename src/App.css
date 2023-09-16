@@ -1,0 +1,49 @@
+.container {
+  width: 90%;
+  margin:0 auto
+}
+.product-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-list-item {
+  width: 30%;
+  margin-bottom: 10px;
+  border: 1px solid red;
+
+}
+
+
+.product-list-item img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  object-fit: cover;
+}
+
+.wrapper {
+  padding-block: 20px;
+}
+
+.input-container {
+  display: flex; 
+  width: 100%;
+  gap: 15px;
+}
+.input-field, .submitWrap {
+  flex-basis: 20%;
+}
+.input-field input {
+  width: 100%;
+}
+
+.submitWrap  {
+  align-self:flex-end 
+}
+
+.submitWrap button {
+  width: 100%;
+}
